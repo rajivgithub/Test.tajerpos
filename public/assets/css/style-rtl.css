@@ -1,0 +1,11 @@
+
+.rtl .main-wrap{
+	margin-right: 270px !important;
+	margin-left: 0px !important;
+	position: unset !important;
+}
+
+body.rtl.aside-mini .main-wrap {
+    margin-right: 80px ;
+}
+ 

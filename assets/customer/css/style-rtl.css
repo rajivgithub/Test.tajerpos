@@ -1,0 +1,112 @@
+.rtl {
+    direction: rtl;
+}
+
+.rtl .slick-slider .slick-prev-1, .rtl .slick-slider .slick-next-1{direction: ltr !important;} 
+.rtl .slick-track{transform: translate3d(100%, 0, 0) !important;}
+.rtl .shipping_text {padding-right: 28px;padding-left: 0px;}
+.rtl .footer_contact_info_icon { margin-right: 0px;margin-left:15px;}
+.rtl .footer_list_width{    border-right: 0px solid #425788;    border-left: 1px solid #425788;
+    margin-right: 0px;
+    padding-right: 0px;
+	    margin-left: 55px;
+    padding-left: 55px;}
+.rtl .footer_list_width:last-child{border-left: 0;}
+.rtl .footer_menu_widget .footer_widget_list {
+    margin-right: 0px; margin-left: 60px;
+}
+.rtl #scrollUp{
+	    left: 12px;
+		right: unset;
+}
+.rtl .header_top_sidebar>ul>li{
+	    padding-right: 0px;
+		    padding-left: 21px;
+			    margin-right: 0px;
+				    margin-left: 20px;
+}
+
+.rtl .header_top_sidebar>ul>li::before {  
+    right: unset;
+	left:0;    
+}
+.rtl .header_account>ul>li span.item_count{
+	right: unset;
+    left: -9px;
+}
+.rtl .single_product .product-add-to-cart{
+	    margin-right: 5px;
+}
+.rtl .pagination ul li {
+	margin-right: 0px;
+    margin-left: 10px;
+}
+.rtl .order-review .order-img img{
+	margin-right: 0px;
+	margin-left: 20px;
+}
+.rtl .address-details .fa{
+	margin-right: 0!important;
+	margin-left: 0.50rem!important;
+}
+.rtl .address-details .card-radio .form-check-input:checked+.form-check-label:before{
+	left: 6px;	
+    right: unset;
+}
+.rtl .offcanvas.offcanvas-end{
+	right: unset;
+    left: 0px;
+	transform: translateX(-100%);
+}
+.rtl .offcanvas.show:not(.hiding), .offcanvas.showing{
+    transform: none !important;
+}
+.rtl .header_account>ul>li{
+	margin-right: 0px;
+	margin-left: 18px;
+}
+.rtl .header_account>ul>li:last-child {   
+	margin-left: 0;
+}
+.rtl .canvas_open{
+	margin-left: 0px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px)
+{
+.rtl .main_menu nav>ul>li {
+    margin-right: 0px; margin-left: 40px;
+}
+}
+
+@media only screen and (max-width: 575px)
+{
+	.rtl .footer_list_width{
+		border-left: 0px solid #425788;
+		margin-left: 0px;
+        padding-left: 0px;
+	}
+	.rtl .footer_menu_widget .footer_widget_list{
+		 margin-left: 0px;
+	}
+	.rtl .header_top_sidebar>ul>li{
+		  padding-left: 0px;
+	      margin-left: 0px;
+	}
+	
+}
+
+.rtl .action_links2{
+	left: 4px;
+	right: unset;
+}
+.rtl .quickview_button{
+	right: 10px;
+}
+.rtl .outofstock_button{
+	right: 10px;
+}
+.rtl .product-checkout-table .text-end{
+	text-align: left!important;
+}

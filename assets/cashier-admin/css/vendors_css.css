@@ -1,0 +1,25 @@
+/****************************/
+/** Imports Plugin css **/
+/****************************/
+
+
+@import url(../vendor_components/bootstrap/dist/css/bootstrap.css);
+@import url(../vendor_components/perfect-scrollbar/css/perfect-scrollbar.css);
+@import url(../vendor_components/morris.js/morris.css);
+@import url(../vendor_components/OwlCarousel2/dist/assets/owl.carousel.css);
+@import url(../vendor_components/OwlCarousel2/dist/assets/owl.theme.default.min.css);
+
+@import url(../vendor_components/datatable/datatables.min.css);
+
+@import url(../vendor_components/select2/dist/css/select2.min.css);
+@import url(../vendor_components/bootstrap-daterangepicker/daterangepicker.css);
+@import url(../vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css);
+@import url(../vendor_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css);
+@import url(../vendor_components/bootstrap-select/dist/css/bootstrap-select.css);
+
+@import url(../vendor_components/chartist-js-develop/chartist.css);
+
+@import url(../vendor_plugins/timepicker/bootstrap-timepicker.min.css);
+
+
+/*# sourceMappingURL=vendors_css.css.map */
